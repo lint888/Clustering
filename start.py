@@ -27,22 +27,7 @@ X = np.array(Image.open("/Users/xisun/Documents/MATLAB/images/IMG_2049.jpeg"))
 
 
 def kmeans(X, k):
-    """Compute a k-means clustering for the data X.
 
-    Parameters
-    ----------
-    X : np.array of size N x D
-        where N is the number of samples and D is the data dimensionality
-    k : int
-        Number of clusters
-
-    Returns
-    -------
-    mu : np.array of size k x D
-        Cluster centers
-    z : np.array of size N
-        Cluster indicators, i.e. a number in 0..k - 1, for each data point in X
-    """
 
     N, D = X.shape
 
