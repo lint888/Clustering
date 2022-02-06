@@ -23,7 +23,7 @@ def compare_images(img, img_compressed, k):
     plt.show()
 
 
-X = np.array(Image.open("/Users/xisun/Documents/MATLAB/images/IMG_2049.jpeg"))
+X = np.array(Image.open("/Users/***/Documents/MATLAB/images/IMG_2049.jpeg"))
 
 
 def kmeans(X, k):
